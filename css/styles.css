@@ -2,3 +2,9 @@
 sans-serif;
 font-family: 'Itim',
 cursive; */
+
+:root {
+   --bg-color: #171836;
+   --btn-bg-color: #F5443B;
+   --txt-color: #FFFFFF;
+}
