@@ -6,5 +6,56 @@ cursive; */
 :root {
    --bg-color: #171836;
    --btn-bg-color: #F5443B;
-   --txt-color: #FFFFFF;
 }
+
+body {
+   font-family: 'Inter', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+   margin: 0;
+}
+
+img {
+   display: block;
+   max-width: 100%;
+   height: auto;
+}
+
+ul {
+   list-style: none;
+   padding: 0;
+}
+
+a {
+   font-style: inherit;
+   text-decoration: none;
+}
+
+header {
+   height: 80px;
+}
+
+.container {
+   width: 1440px;
+   margin-right: auto;
+   margin-left: auto;
+   padding-right: 120px;
+   padding-left: 120px;
+   background-color: var(--bg-color);
+}
+
+.header-container {
+   height: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: start;
+}
+
