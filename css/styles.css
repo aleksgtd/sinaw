@@ -90,3 +90,13 @@ header {
    color: #fff;
 }
 
+.lang-item {
+   display: none;
+}
+
+.lang-item.shown {
+   display: block;
+}
+
+
+
