@@ -98,5 +98,13 @@ header {
    display: block;
 }
 
+.btn {
+   color: #fff;
+   background-color: var(--btn-bg-color);
+   padding: 12px 32px;
+   border-radius: 6px;
+   cursor: pointer;
+}
+
 
 
