@@ -136,6 +136,30 @@ header {
       background-image: url(../images/header-hero/lang.svg);
 }
 
+/* Hero section */
+
+.hero-title {
+      font-size: 56px;
+      font-weight: 600;
+      line-height: 73px;
+      letter-spacing: -0.01em;
+      text-align: left;
+      color: rgba(255, 255, 255, 0.8);
+      text-transform: capitalize;
+      width: 484px;
+      margin-bottom: 24px;
+}
+
+.hero-text {
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 27px;
+      letter-spacing: 0em;
+      text-align: left;
+      color: rgba(255, 255, 255, 0.4);
+      margin-bottom: 56px;
+}
+
 
 
 
