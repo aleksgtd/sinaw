@@ -160,6 +160,33 @@ header {
       margin-bottom: 56px;
 }
 
+.hero-form {
+   height: 68px;
+      width: 506px;
+      border-radius: 12px;
+      position: relative;
+}
+
+.hero-form__input {
+   position: absolute;
+   height: 100%;
+      width: 100%;
+      background-color: rgba(31, 33, 67, 1);
+      padding: 0;
+      border-width: 0;
+}
+
+.hero-form__label {
+   position: absolute;
+   color: rgba(255, 255, 255, 0.4);
+   z-index: 1;
+}
+
+.hero-form__button {
+   position: absolute;
+   z-index: 1;
+}
+
 
 
 
