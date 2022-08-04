@@ -170,22 +170,48 @@ header {
 
 .hero-form__input {
    position: absolute;
+   border-radius: 12px;
    height: 100%;
       width: 100%;
       background-color: rgba(31, 33, 67, 1);
       padding: 0;
       border-width: 0;
+      color: rgba(255, 255, 255, 0.4);
+      padding-right: 76px;
+      padding-left: 20px;
 }
 
 .hero-form__label {
    position: absolute;
    color: rgba(255, 255, 255, 0.4);
    z-index: 1;
+   transform: translateY(-50%);
+      top: 50%;
+      left: 32px;
+      cursor: text;
+      transition: all 250ms linear;
+}
+
+.hero-form__input:focus + .hero-form__label, .hero-form__input:not(:placeholder-shown) + .hero-form__label {
+   top: 0;
+   left: 0;
+   transform: translateY(-150%);
 }
 
 .hero-form__button {
    position: absolute;
    z-index: 1;
+   height: 44px;
+      width: 44px;
+      border-radius: 6px;
+      background-color: rgba(40, 43, 87, 1);
+      border-style: none;
+      transform: translateY(-50%);
+      top: 50%;
+      right: 12px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
 }
 
 .hero-courses-list {
@@ -201,6 +227,7 @@ header {
    border-width: 1px;
    border-color: rgba(154, 156, 203, 0.6);
    border-style: solid;
+  
 }
 
 .hero-courses-list__item:not(:nth-child(3n)) {
@@ -223,6 +250,10 @@ header {
       text-decoration: none;
       display: block;
 }
+
+
+
+
 
 
 
