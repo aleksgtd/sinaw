@@ -43,6 +43,8 @@ header {
    height: 80px;
 }
 
+
+
 .container {
    width: 1440px;
    margin-right: auto;
@@ -137,6 +139,18 @@ header {
 }
 
 /* Hero section */
+
+.hero-container {
+   padding-left: 800px;
+   padding-top: 130px;
+   padding-bottom: 210px;
+   height: 944px;
+   background-image: url(../images/hero/girl.png);
+   background-repeat: no-repeat;
+   background-position-y: 38px;
+}
+
+
 
 .hero-title {
       font-size: 56px;
@@ -250,6 +264,8 @@ header {
       text-decoration: none;
       display: block;
 }
+
+
 
 
 
