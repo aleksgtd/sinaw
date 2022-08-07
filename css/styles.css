@@ -268,8 +268,8 @@ header {
 
 .students-box {
    position: absolute;
-   top: 0;
-   left: 0;
+   top: 677px;
+   left: 395px;
    padding: 20px;
    border-radius: 20px;
    /* border: 2px solid;
@@ -282,15 +282,82 @@ justify-content: center;
 
 .students-box__list {
    width: 195px;
+   height: 52px;
    position: relative;
+   margin-right: 20px;
+   
 }
 
 .students-box__item {
    position: absolute;
    width: 52px;
    height: 52px;
+   border-radius: 50%;
+   border: 1px solid rgba(102, 104, 170, 1);
+   background-color: #8087B8;
+   background-image: url(../images/hero/plus.svg);
+   background-position: center;
+   background-repeat: no-repeat;
+   top: 0;
 }
 
+.students-box__item--first {
+   background-image: url(../images/hero/little-student-icon-1.png);
+   background-position: center;
+   background-repeat: no-repeat;
+}
+
+.students-box__item--second {
+   background-image: url(../images/hero/little-student-icon-2.png);
+      background-position: center;
+      background-repeat: no-repeat;
+   left: 36px;
+   z-index: 2;
+   border-style: none;
+}
+
+.students-box__item--third {
+   background-image: url(../images/hero/little-student-icon-3.png);
+      background-position: center;
+      background-repeat: no-repeat;
+   left: 72px;
+   z-index: 3;
+   border-style: none;
+}
+
+.students-box__item--forth {
+   background-image: url(../images/hero/little-student-icon-4.png);
+      background-position: center;
+      background-repeat: no-repeat;
+   left: 108px;
+   z-index: 4;
+   border-style: none;s
+}
+
+.students-box__item--fifth {
+   left: 144px;
+   z-index: 5;
+}
+
+.students-box__text {
+      font-size: 14px;
+      font-weight: 600;
+      line-height: 22px;
+      letter-spacing: 0em;
+      text-align: left;
+
+      color: rgba(187, 187, 196, 1);
+}
+
+.students-box__text--red {
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 22px;
+      letter-spacing: 0em;
+      text-align: left;
+
+      color: rgba(251, 80, 72, 1);
+}
 
 
 
