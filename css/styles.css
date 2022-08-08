@@ -331,7 +331,7 @@ justify-content: center;
       background-repeat: no-repeat;
    left: 108px;
    z-index: 4;
-   border-style: none;s
+   border-style: none;
 }
 
 .students-box__item--fifth {
@@ -358,6 +358,8 @@ justify-content: center;
 
       color: rgba(251, 80, 72, 1);
 }
+
+
 
 
 
