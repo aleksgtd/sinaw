@@ -364,7 +364,97 @@ justify-content: center;
    height: 90px;
    border-radius: 20px;
    position: absolute;
-   background-image: url(../images/hero/book.svg), linear-gradient(#4C5E9D, #171836);
+   background-image: linear-gradient(#4C5E9D, #171836);
+   background-repeat: no-repeat;
+   background-position: center;
+   
+}
+
+.hero-poster__icon--book {
+   top: 87px;
+   left: 565px;
+  
+background-image: url(../images/hero/book.svg), linear-gradient(#4C5E9D, #171836);
+transform: rotate(13deg);
+}
+
+.hero-poster__icon--lamp {
+   top: 195px;
+   left: 100px;
+   background-image: url(../images/hero/lamp.svg), linear-gradient(#4C5E9D, #171836);
+   transform: rotate(-9deg);
+}
+
+.hero-poster__circle {
+   position: absolute;
+   border-radius: 50%;
+}
+
+.hero-poster__circle--orange {
+   background-color: rgba(231, 83, 83, 1);
+}
+
+.hero-poster__circle--yellow {
+   background-color: rgba(231, 172, 83, 1);
+}
+
+.hero-poster__circle--blue {
+   background-color: rgba(83, 231, 205, 1);
+}
+
+.hero-poster__circle--big {
+   width: 8px;
+   height: 8px;
+}
+
+.hero-poster__circle--medium {
+   width: 6px;
+   height: 6px;
+}
+
+.hero-poster__circle--small {
+   width: 4px;
+   height: 4px;
+}
+
+.hero-poster__circle--orange.hero-poster__circle--big {
+top: 147px;
+left: 87px;
+}
+
+.hero-poster__circle--orange.hero-poster__circle--medium {
+   top: 791px;
+   left: 364px;
+
+}
+
+.hero-poster__circle--orange.hero-poster__circle--small {
+   top: 50px;
+   left: 628px;
+
+}
+
+.hero-poster__circle--yellow.hero-poster__circle--big {
+   top: 833px;
+   left: 626px;
+
+}
+
+.hero-poster__circle--yellow.hero-poster__circle--medium {
+   top: 223px;
+   left: 229px;
+
+}
+
+.hero-poster__circle--blue.hero-poster__circle--big {
+   top: 97px;
+   left: 501px;
+
+}
+
+.hero-poster__circle--blue.hero-poster__circle--small {
+top: 791px;
+left: 771px;
 }
 
 
