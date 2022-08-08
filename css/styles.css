@@ -359,6 +359,14 @@ justify-content: center;
       color: rgba(251, 80, 72, 1);
 }
 
+.hero-poster__icon {
+   width: 90px;
+   height: 90px;
+   border-radius: 20px;
+   position: absolute;
+   background-image: url(../images/hero/book.svg), linear-gradient(#4C5E9D, #171836);
+}
+
 
 
 
