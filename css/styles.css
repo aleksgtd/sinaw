@@ -502,21 +502,24 @@ left: 771px;
    padding: 22px;
    border-style: solid;
    border-radius: 50%;
-   border-width: 1px;
+   border-width: 2px;
    background-position: center;
    background-repeat: no-repeat;
 }
 
 .friends {
    background-image: url(../images/features/friends.svg);
+   border-color: rgba(255, 125, 125, 1);
 }
 
 .expert {
    background-image: url(../images/features/expert.svg);
+   border-color: rgba(72, 184, 141, 1);
 }
 
 .access {
    background-image: url(../images/features/access.svg);
+   border-color: rgba(184, 167, 77, 1);
 }
 
 
