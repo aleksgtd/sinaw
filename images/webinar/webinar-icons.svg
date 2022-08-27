@@ -1,12 +1,8 @@
 <svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <defs>
-<symbol id="icon-arrow" viewBox="0 0 40 32">
-<path fill="none" stroke="#d1d1d7" style="stroke: var(--color1, #d1d1d7)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="1.5" d="M11 12h18"></path>
-<path fill="none" stroke="#d1d1d7" style="stroke: var(--color1, #d1d1d7)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="1.5" d="M25 8l4 4-4 4"></path>
-</symbol>
 <symbol id="icon-maximize" viewBox="0 0 33 32">
-<path fill="none" stroke="#bfbfc7" style="stroke: var(--color2, #bfbfc7)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.6065" d="M20.673 4.219h7.82v7.82"></path>
-<path fill="none" stroke="#bfbfc7" style="stroke: var(--color2, #bfbfc7)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.6065" d="M12.854 27.678h-7.82v-7.82"></path>
+<path fill="none" stroke="#bfbfc7" style="stroke: var(--color1, #bfbfc7)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.6065" d="M20.673 4.219h7.82v7.82"></path>
+<path fill="none" stroke="#bfbfc7" style="stroke: var(--color1, #bfbfc7)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.6065" d="M12.854 27.678h-7.82v-7.82"></path>
 </symbol>
 <symbol id="icon-play" viewBox="0 0 29 32">
 <path d="M27.051 15.079c0.984 0.568 0.984 1.988 0 2.556l-24.346 14.056c-0.984 0.568-2.213-0.142-2.213-1.278v-28.112c0-1.136 1.23-1.846 2.213-1.278l24.346 14.056z"></path>
@@ -14,6 +10,9 @@
 <symbol id="icon-volume" viewBox="0 0 33 32">
 <path fill="none"   stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.6065" d="M15.572 6.826l-6.516 5.213h-5.213v7.819h5.213l6.516 5.213v-18.245z"></path>
 <path fill="none"   stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.6065" d="M26.089 6.734c2.443 2.444 3.816 5.758 3.816 9.214s-1.373 6.77-3.816 9.214M21.489 11.335c1.222 1.222 1.908 2.879 1.908 4.607s-0.686 3.385-1.908 4.607"></path>
+</symbol>
+<symbol id="icon-arrow" viewBox="0 0 32 32">
+<path d="M19.414 27.414l10-10c0.781-0.781 0.781-2.047 0-2.828l-10-10c-0.781-0.781-2.047-0.781-2.828 0s-0.781 2.047 0 2.828l6.586 6.586h-19.172c-1.105 0-2 0.895-2 2s0.895 2 2 2h19.172l-6.586 6.586c-0.39 0.39-0.586 0.902-0.586 1.414s0.195 1.024 0.586 1.414c0.781 0.781 2.047 0.781 2.828 0z"></path>
 </symbol>
 </defs>
 </svg>
