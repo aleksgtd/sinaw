@@ -1117,6 +1117,7 @@ ul.pricing-item__list > li:not(:last-child) {
 }
 
 .apps-app-box {
+    position: relative;
     height: 446px;
     width: 285px;
     padding-top: 40px;
@@ -1222,6 +1223,7 @@ ul.pricing-item__list > li:not(:last-child) {
     border-style: solid;
     border-width: 1.5px;
     border-color: rgba(255, 255, 255, 0.08);
+    margin-bottom: 60px;
 }
 
 .apps-adv-title {
@@ -1230,7 +1232,7 @@ ul.pricing-item__list > li:not(:last-child) {
     line-height: 18px;
     letter-spacing: 0em;
     text-align: left;
-    color: rgba(255, 255, 255, 1);
+    color: rgba(255, 255, 255, 0.8);
 }
 
 .apps-adv-text {
@@ -1243,9 +1245,102 @@ ul.pricing-item__list > li:not(:last-child) {
 }
 
 .apps-nav__list {
-    display: none;
+    position: relative;
+}
+
+.apps-nav__item {
+    position: absolute;
+    width: 159px;
+    height: 94px;
+    border-style: solid;
+    border-width: 2.5px;
+    border-radius: 16.5px;
+    border-color: rgba(255, 255, 255, 0.12);
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 63px 13px 13px 13px;
+}
+
+.apps-nav__item--left {
+    left: -106px;
+}
+
+.apps-nav__item--right {
+    right: 0;
+}
+
+.apps-nav__text {
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(255, 255, 255, 0.7);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.apps-img__diagram,
+.apps-img__computer {
+    position: absolute;
+}
+
+.apps-img__diagram {
+    left: 28px;
+    top: -37px;
+}
+
+.apps-img__computer {
+    left: 15px;
+    top: -35px;
+}
+
+.apps-nav__icon {
+    width: 16.5px;
+    height: 16.5px;
+    stroke: currentColor;
 }
 
 .apps-image-box {
-    display: none;
+    position: absolute;
+    border-style: solid;
+    border-width: 1.2px;
+    border-radius: 50%;
+    border-color: rgba(255, 255, 255, 0.12);
+    background-color: rgba(255, 255, 255, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.apps-image-box--big {
+    width: 59px;
+    height: 59px;
+    top: 96px;
+    left: -81px;
+}
+
+.apps-image-box--medium {
+    width: 51px;
+    height: 51px;
+    top: 255px;
+    left: 265px;
+}
+
+.apps-image-box--small {
+    width: 44px;
+    height: 44px;
+    top: 215px;
+    left: -52px;
+}
+
+.user-image {
+    border-style: solid;
+    border-width: 1.65px;
+    border-radius: 50%;
+    border-color: rgba(255, 255, 255, 0.12);
+    overflow: hidden;
+    object-position: center;
+}
+
+/* Footer */

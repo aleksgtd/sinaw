@@ -1,7 +1,7 @@
 <svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <defs>
 <symbol id="icon-right" viewBox="0 0 32 32">
-<path fill="none" opacity="0.7" stroke="#fff" style="stroke: var(--color1, #fff)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="3.875" d="M12.155 23.961l7.75-7.75-7.75-7.75"></path>
+<path fill="none" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="3.875" d="M12.155 23.961l7.75-7.75-7.75-7.75"></path>
 </symbol>
 </defs>
 </svg>
