@@ -739,7 +739,7 @@ header {
             rgba(31, 33, 67, 0.4) 50%,
             rgba(23, 24, 54, 0.87)
         ),
-        url(../images/webinar/video.png);
+        url(./sinaw/images/webinar/video.png);
     background-position: center;
     background-repeat: no-repeat;
     overflow: hidden;
